@@ -24,6 +24,9 @@ button:focus {
   background: inherit;
   cursor: pointer;
   border: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 li {
@@ -66,6 +69,8 @@ header .container .row:last-child {
   align-items: flex-start;
   flex-wrap: nowrap;
   padding-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
 }
 header .container .row:last-child .nav-list li {
   display: inline-block;

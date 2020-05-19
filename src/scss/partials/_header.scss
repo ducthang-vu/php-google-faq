@@ -25,6 +25,8 @@ header {
         .row:last-child {
             @include flex($justify: space-between);
             padding-top: 15px;
+            font-size: 15px;
+            font-weight: 500;
 
             .nav-list {
                 li {
