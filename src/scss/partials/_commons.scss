@@ -37,8 +37,8 @@ li {
 @mixin container($size: small) {
     margin: 0 auto;
     @if $size == big {
-        width: 1150px;
-        max-width: 90%;
+        width: 1200px;
+        max-width: 95%;
     } @else {
         width: 978px;
         max-width: 80%;

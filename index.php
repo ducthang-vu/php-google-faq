@@ -60,7 +60,7 @@
         <div class="container">
             <div class="row">
                 <a href="">
-                    <img src="dist/img/logo.png" alt="logo">
+                    <img src="dist/img/logo.png" class="logo" alt="logo">
                 </a>
                 <a href="">Privacy & Terms</a>
             </div>
@@ -69,23 +69,23 @@
                 <nav>
                     <ul class=nav-list>
                         <li>
-                            <button>Overview</button>
+                            <button class="nav-list--button">Overview</button>
                         </li>
 
                         <li>
-                            <button>Privacy Policy</button>
+                            <button class="nav-list--button">Privacy Policy</button>
                         </li>
                             
                         <li>
-                            <button>Terms of Service</button>
+                            <button class="nav-list--button">Terms of Service</button>
                         </li>
                     
                         <li>
-                            <button>Technologies</button>
+                            <button class="nav-list--button">Technologies</button>
                         </li>
 
                         <li>
-                            <button>FAQ</button>
+                            <button class="nav-list--button active">FAQ</button>
                         </li>
                     </ul>
                 </nav>

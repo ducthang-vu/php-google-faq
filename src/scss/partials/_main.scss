@@ -1,0 +1,7 @@
+main .container {
+    @include container;
+
+    .faq-list {
+        margin-top: 100px;
+    }
+}
