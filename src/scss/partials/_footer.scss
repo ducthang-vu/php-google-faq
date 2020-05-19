@@ -12,6 +12,18 @@ footer {
             li {
                 display: inline-block;
                 font-size: 11px;
+
+                &:not(:first-child) {
+                    position: relative;
+                    margin-left: 10px;
+
+                    &::before {
+                        position: absolute;
+                        content: '.';
+                        left: -8px;
+                        top: -25%;
+                    }
+                }
             }
         }
     }

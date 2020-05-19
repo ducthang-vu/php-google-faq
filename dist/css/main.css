@@ -128,3 +128,13 @@ footer .container .footer-nav li {
   display: inline-block;
   font-size: 11px;
 }
+footer .container .footer-nav li:not(:first-child) {
+  position: relative;
+  margin-left: 10px;
+}
+footer .container .footer-nav li:not(:first-child)::before {
+  position: absolute;
+  content: ".";
+  left: -8px;
+  top: -25%;
+}
