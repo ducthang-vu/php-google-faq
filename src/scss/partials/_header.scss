@@ -1,0 +1,17 @@
+header .container {
+    @include container(big);
+
+    .row:first-child {
+        @include flex($align: center);
+    }
+
+    .row:last-child {
+        @include flex($justify: space-between);
+
+        .nav-list {
+            li {
+                display: inline-block;
+            }
+        }
+    }
+}

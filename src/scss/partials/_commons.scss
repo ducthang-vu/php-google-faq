@@ -1,0 +1,46 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+button:hover,
+button:focus {
+    outline: 0;
+    color: inherit;
+    background: inherit;
+    cursor: pointer;
+} 
+
+li {
+    list-style: none;
+}
+
+/*UTILITIES*/
+@mixin flex($direction: row, $justify: flex-start, $align: flex-start, $wrap: nowrap){    
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+@mixin container($size: small) {
+    margin: 0 auto;
+    @if $size == big {
+        width: 1150px;
+        max-width: 90%;
+    } @else {
+        width: 978px;
+        max-width: 80%;
+    } 
+}

@@ -1,0 +1,50 @@
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+button:hover,
+button:focus {
+  outline: 0;
+  color: inherit;
+  background: inherit;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+/*UTILITIES*/
+header .container {
+  margin: 0 auto;
+  width: 1150px;
+  max-width: 90%;
+}
+header .container .row:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+header .container .row:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+header .container .row:last-child .nav-list li {
+  display: inline-block;
+}

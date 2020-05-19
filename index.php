@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>php-google-faq</title>
+    <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
     <?php
@@ -56,9 +57,42 @@
     ?>
 
     <header>
-        <div class="container_big">
-            <div class="row"></div>
-            <div class="row"></div>
+        <div class="container">
+            <div class="row">
+                <a href="">
+                    <img src="dist/img/logo.png" alt="logo">
+                </a>
+                <a href="">Privacy & Terms</a>
+            </div>
+
+            <div class="row">
+                <nav>
+                    <ul class=nav-list>
+                        <li>
+                            <button>Overview</button>
+                        </li>
+
+                        <li>
+                            <button>Privacy Policy</button>
+                        </li>
+                            
+                        <li>
+                            <button>Terms of Service</button>
+                        </li>
+                    
+                        <li>
+                            <button>Technologies</button>
+                        </li>
+
+                        <li>
+                            <button>FAQ</button>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a href="">Google Account</a>
+            </div>
+
         </div>
     </header>
     
@@ -67,11 +101,11 @@
             <ul class="faq-list">
                 <?php foreach ($faq as $item) { ?>
                 <li>
-                    <h2 class="faq-list-title"> <?php echo $item['question']; ?> </h2>
+                    <h2 class="faq-list--title"> <?php echo $item['question']; ?> </h2>
 
-                    <div class="faq-list-text">
+                    <div class="faq-list--text">
                         <?php foreach ($item['answer'] as $paragraph) { ?>
-                            <p class="faq-list-text-p">
+                            <p class="faq-list--text--p">
                                 <?php echo $paragraph ?>
                             </p>
                         <?php } ?>
