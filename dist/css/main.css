@@ -75,6 +75,9 @@ header .container .row:last-child .nav-list li .nav-list--button {
   margin-right: 25px;
   padding-bottom: 6px;
 }
+header .container .row:last-child .nav-list li .active {
+  color: blue;
+}
 header .container .row:last-child .nav-list li .active::after {
   position: absolute;
   content: "";
