@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 a,
 a:hover,
 a:focus {
@@ -29,7 +33,7 @@ li {
 /*UTILITIES*/
 header {
   position: fixed;
-  border-bottom: 1px solid #5f6368;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.5);
   top: 0;
   width: 100%;
   z-index: 1;
@@ -49,6 +53,7 @@ header .container .row:first-child {
   align-items: center;
   flex-wrap: nowrap;
   height: 33px;
+  font-size: 22px;
 }
 header .container .row:first-child .logo {
   margin-right: 10px;
@@ -100,8 +105,13 @@ main .container .faq-list li .faq-list--title {
 }
 main .container .faq-list li .faq-list--text--p {
   margin-bottom: 40px;
+  line-height: 24px;
+  font-size: 14px;
 }
 
+footer {
+  background: #f5f5f5;
+}
 footer .container {
   margin: 0 auto;
   width: 978px;
@@ -116,4 +126,5 @@ footer .container {
 }
 footer .container .footer-nav li {
   display: inline-block;
+  font-size: 11px;
 }

@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    border-bottom: 1px solid #5f6368;
+    border-bottom: 1px solid rgba(151,151,151,0.5);
     top: 0;
     width: 100%;
     z-index: 1;
@@ -14,6 +14,7 @@ header {
         .row:first-child {
             @include flex($align: center);
             height: 33px;
+            font-size: 22px;
 
             .logo {
                 margin-right: 10px;

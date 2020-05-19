@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>php-google-faq</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
@@ -138,7 +139,7 @@
 
             <div class="language">
                 <select name="" id="">
-                    <option value="english">English</option>
+                    <option value="english">English (United Kingdom)</option>
                 </select>
             </div>
         </div>
