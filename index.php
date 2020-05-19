@@ -63,7 +63,7 @@
                 <a href="">
                     <img src="dist/img/logo.png" class="logo" alt="logo">
                 </a>
-                <a href="">Privacy & Terms</a>
+                <a class="privacy-link" href="">Privacy & Terms</a>
             </div>
 
             <div class="row">

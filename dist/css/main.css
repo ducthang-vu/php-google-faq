@@ -47,20 +47,24 @@ header .container {
   margin: 0 auto;
   width: 1200px;
   max-width: 95%;
-  padding-top: 35px;
+  padding-top: 25px;
 }
 header .container .row:first-child {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: nowrap;
   height: 33px;
   font-size: 22px;
 }
 header .container .row:first-child .logo {
   margin-right: 10px;
+  padding-top: 4px;
   width: 74px;
+}
+header .container .row:first-child .privacy-link {
+  font-size: 22px;
 }
 header .container .row:last-child {
   display: flex;
@@ -68,7 +72,7 @@ header .container .row:last-child {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: nowrap;
-  padding-top: 15px;
+  padding-top: 20px;
   font-size: 15px;
   font-weight: 500;
 }
@@ -77,7 +81,7 @@ header .container .row:last-child .nav-list li {
 }
 header .container .row:last-child .nav-list li .nav-list--button {
   position: relative;
-  margin-right: 25px;
+  margin-right: 40px;
   padding-bottom: 6px;
 }
 header .container .row:last-child .nav-list li .active {

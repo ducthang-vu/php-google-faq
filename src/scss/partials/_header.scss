@@ -9,22 +9,27 @@ header {
 
     .container {
         @include container(big);
-        padding-top: 35px;
+        padding-top: 25px;
 
         .row:first-child {
-            @include flex($align: center);
+            @include flex($align: flex-start);
             height: 33px;
             font-size: 22px;
 
             .logo {
                 margin-right: 10px;
+                padding-top: 4px;
                 width: 74px;
+            }
+
+            .privacy-link {
+                font-size: 22px;
             }
         }
 
         .row:last-child {
             @include flex($justify: space-between);
-            padding-top: 15px;
+            padding-top: 20px;
             font-size: 15px;
             font-weight: 500;
 
@@ -34,7 +39,7 @@ header {
 
                     .nav-list--button {
                         position: relative;
-                        margin-right: 25px;
+                        margin-right: 40px;
                         padding-bottom: 6px;
                     }
 
