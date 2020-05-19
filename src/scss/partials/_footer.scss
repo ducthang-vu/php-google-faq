@@ -1,0 +1,12 @@
+footer .container {
+    @include container;
+    height: 45px;
+
+    @include flex($align: center, $justify: space-between);
+
+    .footer-nav {
+        li {
+            display: inline-block;
+        }
+    }
+}

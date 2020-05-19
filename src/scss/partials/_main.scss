@@ -3,5 +3,17 @@ main .container {
 
     .faq-list {
         margin-top: 100px;
+
+        li {
+            margin-bottom: 80px;
+
+            .faq-list--title {
+                margin-bottom: 30px;
+            }
+
+            .faq-list--text--p {
+                margin-bottom: 40px;
+            }
+        }
     }
 }

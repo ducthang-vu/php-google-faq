@@ -117,7 +117,31 @@
     </main> 
 
     <footer>
-        <div class="container"></div>
+        <div class="container">
+            <nav class="footer-nav">
+                <li>
+                    <a href="">Google</a>
+                </li>
+
+                <li>
+                    <a href="">About Google</a>
+                </li>
+
+                <li>
+                    <a href="">Privacy</a>
+                </li>
+
+                <li>
+                    <a href="">Terms</a>
+                </li>
+            </nav>
+
+            <div class="language">
+                <select name="" id="">
+                    <option value="english">English</option>
+                </select>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

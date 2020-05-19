@@ -75,3 +75,27 @@ main .container {
 main .container .faq-list {
   margin-top: 100px;
 }
+main .container .faq-list li {
+  margin-bottom: 80px;
+}
+main .container .faq-list li .faq-list--title {
+  margin-bottom: 30px;
+}
+main .container .faq-list li .faq-list--text--p {
+  margin-bottom: 40px;
+}
+
+footer .container {
+  margin: 0 auto;
+  width: 978px;
+  max-width: 80%;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+footer .container .footer-nav li {
+  display: inline-block;
+}
