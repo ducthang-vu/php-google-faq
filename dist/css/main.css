@@ -19,7 +19,6 @@ button:focus {
   color: inherit;
   background: inherit;
   cursor: pointer;
-  box-shadow: 0 0 0 0;
   border: 0;
 }
 
@@ -35,6 +34,7 @@ header {
   width: 100%;
   z-index: 1;
   background: #fff;
+  color: #3c4043;
 }
 header .container {
   margin: 0 auto;
@@ -82,6 +82,7 @@ header .container .row:last-child .nav-list li .active::after {
 
 main {
   padding-top: 109px;
+  color: #3c4043;
 }
 main .container {
   margin: 0 auto;
@@ -106,6 +107,7 @@ footer .container {
   width: 978px;
   max-width: 80%;
   height: 45px;
+  color: #3c4043;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
