@@ -1,18 +1,22 @@
-main .container {
-    @include container;
+main {
+    padding-top: 109px;
 
-    .faq-list {
-        margin-top: 100px;
+    .container {
+        @include container;
 
-        li {
-            margin-bottom: 80px;
+        .faq-list {
+            margin-top: 100px;
 
-            .faq-list--title {
-                margin-bottom: 30px;
-            }
+            li {
+                margin-bottom: 80px;
 
-            .faq-list--text--p {
-                margin-bottom: 40px;
+                .faq-list--title {
+                    margin-bottom: 30px;
+                }
+
+                .faq-list--text--p {
+                    margin-bottom: 40px;
+                }
             }
         }
     }

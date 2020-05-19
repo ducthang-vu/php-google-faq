@@ -15,10 +15,12 @@ a:focus {
 button,
 button:hover,
 button:focus {
-    outline: 0;
+    outline: none;
     color: inherit;
     background: inherit;
     cursor: pointer;
+    box-shadow: 0 0 0 0;
+    border: 0;
 } 
 
 li {
