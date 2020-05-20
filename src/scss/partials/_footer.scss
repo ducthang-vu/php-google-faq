@@ -5,7 +5,6 @@ footer {
         @include container;
         height: 45px;
         color: $gray;
-
         @include flex($align: center, $justify: space-between);
 
         .footer-nav {
